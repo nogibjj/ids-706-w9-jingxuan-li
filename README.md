@@ -1,10 +1,7 @@
-[![Format](https://github.com/nogibjj/jingxuan_li_mini_project_1/actions/workflows/format.yml/badge.svg)](https://github.com/nogibjj/jingxuan_li_mini_project_1/actions/workflows/format.yml)
-[![Install](https://github.com/nogibjj/jingxuan_li_mini_project_1/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/jingxuan_li_mini_project_1/actions/workflows/install.yml)
-[![Lint](https://github.com/nogibjj/jingxuan_li_mini_project_1/actions/workflows/lint.yml/badge.svg)](https://github.com/nogibjj/jingxuan_li_mini_project_1/actions/workflows/lint.yml)
-[![Test](https://github.com/nogibjj/jingxuan_li_mini_project_1/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/jingxuan_li_mini_project_1/actions/workflows/test.yml)
-
-[![CI](https://github.com/nogibjj/ids-706-miniproject-2-jingxuan-li/actions/workflows/CICD.yml/badge.svg)](https://github.com/nogibjj/ids-706-miniproject-2-jingxuan-li/actions/workflows/CICD.yml)
-
+[![Install](https://github.com/nogibjj/ids-706-w9-jingxuan-li/actions/workflows/install.yml/badge.svg)](https://github.com/nogibjj/ids-706-w9-jingxuan-li/actions/workflows/install.yml)
+[![Format](https://github.com/nogibjj/ids-706-w9-jingxuan-li/actions/workflows/format.yml/badge.svg)](https://github.com/nogibjj/ids-706-w9-jingxuan-li/actions/workflows/format.yml)
+[![Test](https://github.com/nogibjj/ids-706-w9-jingxuan-li/actions/workflows/test.yml/badge.svg)](https://github.com/nogibjj/ids-706-w9-jingxuan-li/actions/workflows/test.yml)
+[![Lint](https://github.com/nogibjj/ids-706-w9-jingxuan-li/actions/workflows/lint.yml/badge.svg)](https://github.com/nogibjj/ids-706-w9-jingxuan-li/actions/workflows/lint.yml)
 ## Setup with VS Code and .devcontainer
 
 Follow these steps to prepare and use your development environment:
@@ -41,22 +38,29 @@ To ensure your code modifications function correctly:
 
 1. **Open Terminal in VS Code**:
    Use the integrated terminal in VS Code (`Ctrl+``), ensuring you are at the project root directory.
+2. **lint code**:
+   Run the lint using the Makefile command:
+   ```bash
+   make lint
+   ```
+   ![image](https://github.com/user-attachments/assets/7d662dac-93ee-4df0-8da9-21bef45c5df4)
 
-2. **Execute Tests**:
+3. **Execute Tests**:
    Run the tests using the Makefile command:
    ```bash
    make test
    ```
-
-3. **Review Test Results**:
+4. **Review Test Results**:
    Examine the output in the terminal to verify that all tests pass without errors.
-![alt text](2.jpeg)
+![image](https://github.com/user-attachments/assets/31afa8bc-ada6-454b-8d69-5b78a1543fc8)
 
+
+### Colab link:
 https://colab.research.google.com/drive/1ffeUcGp6YLQtoODaMR3n356E1Go10vWJ?usp=sharing
 ### Project Structure
 
 Here is an overview of important files and directories in the repository:
-
+- `HW9.ipynb`: Set up a cloud-hosted Jupyter Notebook in Google Colab. Save a copy to github. [Colab link included]
 - `.devcontainer/`: Contains Docker configuration files for setting up the development environment.
 - `.github/workflows/`: Includes CI/CD pipeline configurations using GitHub Actions.
 - `Makefile`: Defines scripts for common project tasks such as testing.
@@ -67,6 +71,12 @@ Here is an overview of important files and directories in the repository:
 - `test_script.py`: test Main Python script.
 - `test_lib.py`: test lib Python script.
 - `requirements.txt`: Lists all Python dependencies.
-- `decriptive.ipynb`: Jupiter Notebook script.
+
+### data visualisition
+![image](https://github.com/user-attachments/assets/3841dc60-967c-4fae-83db-e3f4173fa837)
+![image](https://github.com/user-attachments/assets/55fd0742-d655-4475-8745-6803bc603d1f)
+![image](https://github.com/user-attachments/assets/c909a7ff-f8e9-4699-917b-75cbd24af766)
+
+
 
 ---
