@@ -16,7 +16,7 @@ Follow these steps to prepare and use your development environment:
 
 1. **Clone the Repository**:
    ```bash
-   git clone git@github.com:Jourdan0803/ids-706-miniproject-2-jingxuan-li.git
+   git clone git@github.com:Jourdan0803/ids-706-w9-jingxuan-li.git
    ```
 
 2. **Open in VS Code**:
