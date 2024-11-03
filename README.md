@@ -72,7 +72,34 @@ Here is an overview of important files and directories in the repository:
 - `test_lib.py`: test lib Python script.
 - `requirements.txt`: Lists all Python dependencies.
 
-### data visualisition
+### Documantation:
+
+1. **Importing Libraries**:
+   - Imported `pandas` for data manipulation, `matplotlib.pyplot` for data visualization, `requests` for fetching data, and `warnings` for handling warnings.
+
+2. **Fetching Data**:
+   - Used `requests.get` to retrieve a CSV file from a specified URL and utilized `StringIO` to convert it into a readable format.
+   - Employed `pd.read_csv` to read the data and store it in a DataFrame named `df`.
+
+3. **Data Inspection**:
+   - Printed the first few rows of the DataFrame to inspect the data.
+   - Used `assert` to ensure that the DataFrame is not empty.
+
+4. **Calculating Descriptive Statistics**:
+   - Calculated and printed the mean, median, and standard deviation for both age and salary.
+
+5. **Average Salary by Department**:
+   - Used the `groupby` method to group data by department and calculate the average salary.
+   - Visualized the average salary for each department using a bar chart.
+
+6. **Scatter Plot of Age vs. Salary**:
+   - Created a scatter plot to show the relationship between age and salary.
+
+7. **Average Salary by Education Level**:
+   - Used the `groupby` method to group data by education level and calculate the average salary.
+   - Visualized the average salary for different education levels using a bar chart.
+
+8. **data visualisition**
 ![image](https://github.com/user-attachments/assets/3841dc60-967c-4fae-83db-e3f4173fa837)
 ![image](https://github.com/user-attachments/assets/55fd0742-d655-4475-8745-6803bc603d1f)
 ![image](https://github.com/user-attachments/assets/c909a7ff-f8e9-4699-917b-75cbd24af766)
